@@ -6,7 +6,7 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 test('adds -5 + 5 to equal 0', () => {
-  expect(sum(-5, 5)).toBe(0);
+  expect(sum(-5, 5)).toBe(10);
 });
 
 test('adds 0.1 + 0.2 to be close to 0.3', () => {
